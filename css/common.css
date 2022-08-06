@@ -1,0 +1,72 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primery-text-color);
+
+}
+
+.logo span {
+    color: #2196F3;
+}
+
+.logo {
+    color: #000000;
+}
+.logo:hover {
+    color: #2196F3;
+}
+.logo span:hover {
+    color: #000000;
+}
+
+.site-nav .link.curent {
+    color: var(--accent-color);
+}
+
+
+.list {
+    list-style: none;
+}
+/* Цвет заголовков #212121 */
+
+/* Цвет основного текста #757575 */
+
+ /* белый #ffffff  */
+
+/* акцент #2196F3  */
+
+/* Цвет основного фона #F5F5F5 */
+
+/* Цвет дополнительного фона #F5F4FA */
+
+
+    /* site-nav */
+.site-nav a {
+    color:var(--title-text-color);
+}
+.contacts a {
+    color: var(--primery-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+
+/* Футер */
+
+.address {
+    color: #FFFFFF;
+}
+

@@ -1,6 +1,12 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 body {
     background-color: #F5F5F5;
-    color: #757575;
+    color: var(--primery-text-color);
 
 }
 
@@ -11,6 +17,17 @@ body {
 .logo {
     color: #000000;
 }
+.logo:hover {
+    color: #2196F3;
+}
+.logo span:hover {
+    color: #000000;
+}
+
+.site-nav .link.curent {
+    color: var(--accent-color);
+}
+
 
 .list {
     list-style: none;
@@ -23,7 +40,66 @@ body {
 
 /* акцент #2196F3  */
 
-/* Цвет дополнительного фона #F5F5F5 */
+/* Цвет основного фона #F5F5F5 */
 
 /* Цвет дополнительного фона #F5F4FA */
+
+
+    /* site-nav */
+.site-nav a {
+    color:var(--title-text-color);
+}
+.contacts a {
+    color: rgba(117, 117, 117, 1);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+    /* Hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+.button-primary {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+    /* Section */
+    
+.section-title {
+    color: var(--title-text-color);
+}
+
+    /* Переваги */
+
+.section-text {
+    color: var(--primery-text-color);
+}  
+
+    /* Послуги */
+
+    /* Команда */
+
+ .teame job {
+    color: var(--primery-text-color);
+ }   
+
+    /* Футер */
+
+.address {
+    color: #FFFFFF;
+}
 
