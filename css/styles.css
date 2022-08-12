@@ -110,6 +110,7 @@ body {
     border-color: var(--accent-color);
     box-shadow:rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
     /* Переваги */
@@ -185,6 +186,7 @@ body {
     /* Футер */
 
 .address {
+    font-family: 'Roboto';
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
