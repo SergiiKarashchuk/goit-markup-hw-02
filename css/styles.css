@@ -96,32 +96,91 @@ body {
 
 .hero-title {
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-.button-primary {
+.btn {
     color: #FFFFFF;
     background-color: var(--accent-color);
     font-family: inherit;
-}
-
-    /* Section */
-    
-.section-title {
-    color: var(--title-text-color);
+    border-color: var(--accent-color);
+    box-shadow:rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
     /* Переваги */
 
-.section-text {
-    color: var(--primery-text-color);
-}  
+    .benefits.list .section-title {
+        color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    
+    .benefits.list .section-text {
+        color: var(--primery-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    }
+
 
     /* Послуги */
 
+    .project-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+    .project.list p {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
     /* Команда */
 
- .teame job {
+.section.heands h2 {
+    color: var(--title-text-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.heands-list h3 {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
     color: var(--primery-text-color);
- }   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
 
     /* Футер */
 
