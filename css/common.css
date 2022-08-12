@@ -5,17 +5,33 @@
 }
 
 body {
+    font-family: Roboto, sans-serif;
     background-color: #F5F5F5;
     color: var(--primery-text-color);
 
 }
 
 .logo span {
-    color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #010202;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
 }
 
 .logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
     color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+    
 }
 .logo:hover {
     color: #2196F3;
@@ -46,12 +62,24 @@ body {
 
 
     /* site-nav */
-.site-nav a {
-    color:var(--title-text-color);
-}
-.contacts a {
-    color: var(--primery-text-color);
-}
+    .site-nav a {
+        color:var(--title-text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,4;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    }
+    .contacts a {
+        color: var(--primery-text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,4;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    }
 
 .site-nav a:hover,
 .site-nav a:focus {
@@ -68,5 +96,10 @@ body {
 
 .address {
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
 }
 
