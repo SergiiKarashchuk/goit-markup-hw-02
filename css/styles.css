@@ -12,13 +12,13 @@ body {
 }
 
 .logo span {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: #010202;
+    color: var(--accent-color);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -95,6 +95,11 @@ body {
     /* Hero */
 
 .hero-title {
+    
+    /* потім прибрати фон */
+    
+    background-color: var(--accent-color);
+
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -108,9 +113,14 @@ body {
     background-color: var(--accent-color);
     font-family: inherit;
     border-color: var(--accent-color);
-    box-shadow:rgba(0, 0, 0, 0.15);
+    box-shadow:hsla(0, 0%, 0%, 0.15);
     border-radius: 4px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background: #188CE8;
+
 }
 
     /* Переваги */
