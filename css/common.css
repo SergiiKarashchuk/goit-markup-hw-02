@@ -6,7 +6,6 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #F5F5F5;
     color: var(--primery-text-color);
 
 }
@@ -36,9 +35,7 @@ body {
 .logo:hover {
     color: #2196F3;
 }
-.logo span:hover {
-    color: #000000;
-}
+
 
 .site-nav .link.curent {
     color: var(--accent-color);
@@ -67,7 +64,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,4;
+        line-height: 1.4;
         letter-spacing: 0.02em;
         text-decoration: none;
     }
@@ -76,7 +73,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,4;
+        line-height: 1.4;
         letter-spacing: 0.02em;
         text-decoration: none;
     }
@@ -94,8 +91,23 @@ body {
 
 /* Футер */
 
-.address {
+.section-footer {
+    background-color: #2F303A;
+}
+
+.section-address .item {
+    font-family: 'Roboto';
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.section-address .mail,
+.section-address .tel {
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

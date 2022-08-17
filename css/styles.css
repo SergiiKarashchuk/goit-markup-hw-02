@@ -1,12 +1,15 @@
 :root {
     --primery-text-color: #757575;
     --title-text-color: #212121;
+    --hover-text-color: #ffffff;
     --accent-color: #2196F3;
+    --primary-background-color: #F5F4FA;
+    --secondary-background-color: #2F303A; 
+    --hero-color: #ffffff;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #F5F5F5;
     color: var(--primery-text-color);
 
 }
@@ -15,28 +18,25 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--accent-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     color: #000000;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo:hover {
     color: #2196F3;
-}
-.logo span:hover {
-    color: #000000;
 }
 
 .site-nav .link.curent {
@@ -51,11 +51,9 @@ body {
 
 /* Цвет основного текста #757575 */
 
- /* белый #ffffff  */
-
 /* акцент #2196F3  */
 
-/* Цвет основного фона #F5F5F5 */
+/* Цвет основного фона #ffffff */
 
 /* Цвет дополнительного фона #F5F4FA */
 
@@ -65,7 +63,7 @@ body {
         color:var(--title-text-color);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,4;
+        line-height: 1.4;
         letter-spacing: 0.02em;
         text-decoration: none;
     }
@@ -73,7 +71,7 @@ body {
         color: var(--primery-text-color);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,4;
+        line-height: 1.4;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
@@ -92,15 +90,13 @@ body {
     color: var(--title-text-color);
 }
 
-    /* Hero */
-
-.hero-title {
-    
     /* потім прибрати фон */
-    
-    background-color: var(--accent-color);
-
-    color: #FFFFFF;
+.hero {
+    background-color: gray;
+}
+    /* Hero */
+.hero-title {    
+    color: var(--hero-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -112,8 +108,12 @@ body {
     color: #FFFFFF;
     background-color: var(--accent-color);
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+
     border-color: var(--accent-color);
-    box-shadow:hsla(0, 0%, 0%, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -125,7 +125,18 @@ body {
 
     /* Переваги */
 
-    .benefits.list .section-title {
+.visually-hidden {
+        position: absolute; 
+        white-space: nowrap; 
+        width: 1px; height: 1px; 
+        overflow: hidden; border: 0; 
+        padding: 0; clip: rect(0 0 0 0); 
+        clip-path: inset(50%); 
+        margin: -1px;
+    
+    }
+
+.benefits.list .section-title {
         color: var(--title-text-color);
         font-weight: 700;
         font-size: 14px;
@@ -134,9 +145,8 @@ body {
         text-transform: uppercase;
     }
     
-    .benefits.list .section-text {
+.benefits.list .section-text {
         color: var(--primery-text-color);
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -145,7 +155,7 @@ body {
 
     /* Послуги */
 
-    .project-title {
+.project-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -154,8 +164,8 @@ body {
     letter-spacing: 0.03em;
     }
 
-    .project.list p {
-    color: #FFFFFF;
+.project.list p {
+    color: var(--hero-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -165,6 +175,10 @@ body {
     }
 
     /* Команда */
+
+.section.heands {
+    background-color: #F5F4FA;
+}
 
 .section.heands h2 {
     color: var(--title-text-color);
@@ -185,9 +199,12 @@ body {
     letter-spacing: 0.03em;
 }
 
+.heands.list li {
+    background-color: #FFFFFF;
+}
+
 .position {
     color: var(--primery-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -195,10 +212,22 @@ body {
 
     /* Футер */
 
-.address {
-    font-family: 'Roboto';
+.section-footer {
+    background-color: var(--secondary-background-color);
+}
+
+.section-address .item {
     color: #FFFFFF;
-    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.section-address .mail,
+.section-address .tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

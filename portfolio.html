@@ -12,10 +12,10 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <!-- <link rel="stylesheet" href="./css/common.css"> -->
     <link rel="stylesheet" href="./css/porfolio.css">
 </head>
-<body class="page">
+<body>
     <header>
     <nav>
         <a class="logo" href=""><span>Web</span>Studio</a>
@@ -26,31 +26,30 @@
     <li><a href="" class="link">Контакти</a></li>
     </ul>
 </nav>
-</header>
+
 
     <ul class="contacts list">
     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
     <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
-    
+
+</header>   
 <main>
 
     <!-- Кнопки фільтра -->
 
 <section class="button">
-<ul class="button list">
-    <li><a href="" class="button carent" type="button">Усі</a></li>
-    <li><a href="" type="button">Веб-сайт</a></li>
-    <li><a href="" type="button">Додатки</a></li>
-    <li><a href="" type="button">Дизайн</a></li>
-    <li><a href="" type="button">Маркетинг</a></li>
-</ul>
-</section>
-
-<section>  
 
     <!-- Потім скриємо цей h1 -->
-<h1>Проєкти</h1>
+<h1 class="visually-hidden">Проєкти</h1>
+
+<ul class="button list">
+    <li><button class="button curent" type="button">Усі</button></li>
+    <li><button type="button">Веб-сайт</button></li>
+    <li><button type="button">Додатки</button></li>
+    <li><button type="button">Дизайн</button></li>
+    <li><button type="button">Маркетинг</button></li>
+</ul>
 
     <!-- /* Проєкти */ -->
 
@@ -86,7 +85,7 @@
         <p>Веб-сайт</p>
     </li>
     <li>
-        <img src="./images/portfolio-examples/open book.jpg" alt="відкрита книга" width="370">
+        <img src="./images/portfolio-examples/open-book.jpg" alt="відкрита книга" width="370">
         <h2>Видання Limited Edition</h2>
         <p>Дизайн</p>
     </li>
@@ -103,34 +102,24 @@
 </ul> 
 </section>
 </main>
-</body>
 
-    <footer>
+
+<footer class="section-footer">
         <a class="logo" href=""><span>Web</span>Studio</a>
-        <address class="address">
+        <address class="section-address">
             <ul class="contacts list">
                 <li>
-                <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a>  
+                <a class="item" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a>  
                 </li>
                 <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a class="mail" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
 
-        <!-- Соц.мережі -->
-<section class="links">
-<h3>Приєднуйтесь</h3>
-<ul class="links list">
-    <li>
-    <a href="http://www.twitter.com">
-    <img src="./images/links/twiter.svg" alt="twitter" href="">
-    </a>
-    </li>
-</ul>
-</section>
 </footer>
-    </html>
+</body>
+</html>
